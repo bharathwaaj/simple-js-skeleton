@@ -4,15 +4,15 @@ exports.config =
     javascripts:
       defaultExtension: 'js'
       joinTo:
-        'javascripts/app.js': /^app/
-        'javascripts/vendor.js': /^vendor/
-        'test/javascripts/test.js': /^test(\/|\\)(?!vendor)/
+        'js/app.js': /^app/
+        'js/vendor.js': /^vendor/
+        'test/js/test.js': /^test(\/|\\)(?!vendor)/
       order:
         before: [
           'vendor/scripts/console-helper.js',
-          'vendor/scripts/jquery-1.7.2.js',
-          'vendor/scripts/underscore-1.3.3.js',
-          'vendor/scripts/backbone-0.9.2.js'
+          'vendor/scripts/jquery.js',
+          'vendor/scripts/underscore.js',
+          'vendor/scripts/backbone.js'
         ]
 
     stylesheets:
@@ -24,4 +24,4 @@ exports.config =
 
     templates:
       defaultExtension: 'hbs'
-      joinTo: 'javascripts/app.js'
+      joinTo: 'js/app.js'
