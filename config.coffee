@@ -11,8 +11,10 @@ exports.config =
         before: [
           'vendor/scripts/console-helper.js',
           'vendor/scripts/jquery.js',
+          'vendor/scripts/json2.js',
           'vendor/scripts/underscore.js',
-          'vendor/scripts/backbone.js'
+          'vendor/scripts/backbone.js',
+          'vendor/scripts/rivets.js'
         ]
 
     stylesheets:
