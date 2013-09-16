@@ -15,7 +15,7 @@
     "start": "brunch watch --server"
   },
   "dependencies": {
-    "handlebars-brunch": "> 1.0 < 1.3",
+    "underscore-brunch": "> 1.0 < 1.6",
     "javascript-brunch": "> 1.0 < 1.6",
     "css-brunch": "> 1.0 < 1.6",
     "less-brunch": "> 1.0 < 1.6",
